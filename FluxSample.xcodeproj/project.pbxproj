@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1AE7C02D1EC9074440B8F589 /* Pods_FluxSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 987DB52D7FDD0C7E63B1D14E /* Pods_FluxSample.framework */; };
+		3C66FCEB1EB87E8D00B6193F /* UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C66FCEA1EB87E8D00B6193F /* UIScrollView.swift */; };
 		FBB512821EB84C7600AEFF56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB5127F1EB84C7600AEFF56 /* AppDelegate.swift */; };
 		FBB512831EB84C7600AEFF56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB512801EB84C7600AEFF56 /* Assets.xcassets */; };
 		FBB512871EB84C9700AEFF56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB512851EB84C9700AEFF56 /* LaunchScreen.storyboard */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		3C5FCBBB1EB6BE74003D4FE2 /* FluxSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FluxSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C66FCEA1EB87E8D00B6193F /* UIScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScrollView.swift; sourceTree = "<group>"; };
 		987DB52D7FDD0C7E63B1D14E /* Pods_FluxSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FluxSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B5E2D12FAA00AAF767DF15 /* Pods-FluxSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FluxSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FluxSample/Pods-FluxSample.debug.xcconfig"; sourceTree = "<group>"; };
 		FB418E7B70973FEE341ADD99 /* Pods-FluxSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FluxSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-FluxSample/Pods-FluxSample.release.xcconfig"; sourceTree = "<group>"; };
@@ -226,6 +228,7 @@
 				FBB5128C1EB84D3500AEFF56 /* NSObjectProtocol.swift */,
 				FBB5128D1EB84D3500AEFF56 /* SVProgressHUD.swift */,
 				FBB5128E1EB84D3500AEFF56 /* UITableView.swift */,
+				3C66FCEA1EB87E8D00B6193F /* UIScrollView.swift */,
 				FBB5128F1EB84D3500AEFF56 /* Variable.swift */,
 			);
 			name = Extension;
@@ -477,6 +480,7 @@
 				FBB512821EB84C7600AEFF56 /* AppDelegate.swift in Sources */,
 				FBB512921EB84D3500AEFF56 /* UITableView.swift in Sources */,
 				FBB5129E1EB84DEC00AEFF56 /* ErrorNoticeAction.swift in Sources */,
+				3C66FCEB1EB87E8D00B6193F /* UIScrollView.swift in Sources */,
 				FBB512BD1EB84F4B00AEFF56 /* ProfileNavigationController.swift in Sources */,
 				FBB512AE1EB84EFB00AEFF56 /* TopController.swift in Sources */,
 				FBB5129F1EB84DEC00AEFF56 /* TopAction.swift in Sources */,

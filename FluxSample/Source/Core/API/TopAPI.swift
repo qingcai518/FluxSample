@@ -12,13 +12,16 @@ import Himotoki
 
 struct TopAPI {
     static func getTopInfos(_ hasMore: Bool) -> Observable<RecordsResponse<TopInfo>> {
-        var offset = 0
+        var page = 0
+        
         if (hasMore) {
-            offset = UserDefaults.standard.integer(forKey: UDKey.offset)
+            page = 1
         }
         
-        let params = ["count": count, "offset": offset]
+        let params = ["count": count, "page": page]
         let url = URL(string: topPath)!
+        
+        print("params = \(params)")
         
         let observable = Observable<RecordsResponse<TopInfo>>.create { observer -> Disposable in
             Alamofire.request(url, method: .get, parameters: params).responseJSON(completionHandler: { response in
@@ -26,7 +29,6 @@ struct TopAPI {
                     observer.onError(error)
                     return
                 }
-                
                 
                 guard let result = response.result.value as? NSArray else {
                     let castError = NSError(domain: "fail to cast JSON", code: 1, userInfo: nil)
@@ -42,9 +44,6 @@ struct TopAPI {
                     observer.onError(decodeError)
                     return
                 }
-                
-                UserDefaults.standard.set(offset + records.count, forKey: UDKey.offset)
-                UserDefaults.standard.synchronize()
                 
                 let recordResponse = RecordsResponse(records: records)
                 observer.onNext(recordResponse)
