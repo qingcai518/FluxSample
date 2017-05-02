@@ -12,7 +12,7 @@ extension Date {
     private static let ISO8601Formatter: DateFormatter = {
         let dateFormatter = DateFormatter()
         dateFormatter.locale = Locale(identifier: "en_US")
-        dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZZZZ"
+        //dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZZZZ"
         dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss"
         return dateFormatter
     }()
