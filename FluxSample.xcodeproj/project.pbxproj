@@ -602,7 +602,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2RW8Q6Y7W7;
-				INFOPLIST_FILE = FluxSample/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FluxSample/Resource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.kaka.FluxSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -616,7 +616,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2RW8Q6Y7W7;
-				INFOPLIST_FILE = FluxSample/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FluxSample/Resource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.kaka.FluxSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
