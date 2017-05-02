@@ -48,20 +48,3 @@ extension TopDataSource: UITableViewDelegate {
         print("to next page.")
     }
 }
-
-extension TopDataSource: UIScrollViewDelegate {
-    func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        let contentOffsetY = scrollView.contentOffset.y
-        let contentHeight = scrollView.contentSize.height
-        let height = scrollView.bounds.size.height
-        
-        print("contentOffset Y = \(contentOffsetY)")
-        print("content height = \(contentHeight)")
-        print("height = \(height)")
-        
-        if (scrollView.contentOffset.y >= scrollView.contentSize.height - scrollView.bounds.size.height) {
-            print("22222")
-            TopAction.shared.getTopInfos(topInfos.value)
-        }
-    }
-}

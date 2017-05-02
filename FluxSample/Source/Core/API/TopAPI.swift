@@ -10,9 +10,7 @@ import RxSwift
 import Alamofire
 
 struct TopAPI {
-    static func getTopInfos(_ topInfos: [TopInfo]?) -> Observable<RecordsResponse<TopInfo>> {
-        print("--------------------")
-        print("get top infos = \(topInfos)")
+    static func getTopInfos() -> Observable<RecordsResponse<TopInfo>> {
         var offset = 0
         var records = [TopInfo]()
         
@@ -23,8 +21,6 @@ struct TopAPI {
         
         let params = ["count": count, "offset": offset]
         let url = URL(string: topPath)!
-        
-        print("params = \(params)")
         
         let observable = Observable<RecordsResponse<TopInfo>>.create { observer -> Disposable in
             Alamofire.request(url, method: .get, parameters: params).responseJSON(completionHandler: { response in
