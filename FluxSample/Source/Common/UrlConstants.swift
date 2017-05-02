@@ -7,4 +7,4 @@
 //
 
 let apiBasePath = "https://main-myreader.ssl-lolipop.jp"
-let topPath = "/Flux_TopInfo"
+let topPath = apiBasePath + "/Flux_TopInfo"
