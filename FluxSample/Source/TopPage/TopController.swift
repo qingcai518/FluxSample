@@ -9,9 +9,12 @@
 import UIKit
 import RxSwift
 import SVProgressHUD
+import MJRefresh
 
 class TopController: UIViewController, Storyboardable {
     @IBOutlet weak var tableView : UITableView!
+    var header = MJRefreshGifHeader()
+    
     let disposeBag = DisposeBag()
 
     private let dataSource = TopDataSource()
