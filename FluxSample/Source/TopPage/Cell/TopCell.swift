@@ -23,6 +23,6 @@ class TopCell: UITableViewCell, Nibable {
         itemImageView.kf.setImage(with: URL(string: info.itemImageUrl)!)
         itemNameLbl.text = info.itemName
         priceLbl.text = info.price
-        expiredLbl.text = info.expired
+        expiredLbl.text = info.expiredDateString
     }
 }
