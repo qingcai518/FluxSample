@@ -39,6 +39,10 @@ struct TopAPI {
                 var records = [TopInfo]()
                 do {
                     records = try decodeArray(result)
+                    
+                    for (_, element) in records.enumerated() {
+                        print("\(element.expiredDateString)")
+                    }
                 } catch {
                     let decodeError = NSError(domain: "fail to decodeArray result", code: 1, userInfo: nil)
                     observer.onError(decodeError)

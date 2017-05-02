@@ -27,3 +27,15 @@ struct TopInfo:Decodable {
         )
     }
 }
+
+extension TopInfo {
+    var expiredDateString: String {
+        let e = expired.replacingOccurrences(of: " ", with: "T")
+        guard let date = Date(ISO8601String: e) else {
+            return "----/--/--"
+        }
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy/MM/dd"
+        return dateFormatter.string(from: date)
+    }
+}
