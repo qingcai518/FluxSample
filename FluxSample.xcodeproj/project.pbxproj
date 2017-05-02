@@ -8,78 +8,79 @@
 
 /* Begin PBXBuildFile section */
 		1AE7C02D1EC9074440B8F589 /* Pods_FluxSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 987DB52D7FDD0C7E63B1D14E /* Pods_FluxSample.framework */; };
-		3C5FCBBF1EB6BE74003D4FE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCBBE1EB6BE74003D4FE2 /* AppDelegate.swift */; };
-		3C5FCBC61EB6BE74003D4FE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C5FCBC51EB6BE74003D4FE2 /* Assets.xcassets */; };
-		3C5FCBC91EB6BE74003D4FE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C5FCBC71EB6BE74003D4FE2 /* LaunchScreen.storyboard */; };
-		3C5FCBD61EB6BEBE003D4FE2 /* DispatcherSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCBD51EB6BEBE003D4FE2 /* DispatcherSubject.swift */; };
-		3C5FCBD91EB6C6C2003D4FE2 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCBD81EB6C6C2003D4FE2 /* Store.swift */; };
-		3C5FCBDD1EB6C8DE003D4FE2 /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCBDC1EB6C8DE003D4FE2 /* Storyboardable.swift */; };
-		3C5FCBE01EB6C95A003D4FE2 /* NSObjectProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCBDF1EB6C95A003D4FE2 /* NSObjectProtocol.swift */; };
-		3C5FCBE21EB6CA66003D4FE2 /* Nibable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCBE11EB6CA66003D4FE2 /* Nibable.swift */; };
 		3C5FCBE51EB6CB87003D4FE2 /* MainController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C5FCBE41EB6CB87003D4FE2 /* MainController.storyboard */; };
-		3C5FCBE81EB6CBC5003D4FE2 /* TopController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C5FCBE71EB6CBC5003D4FE2 /* TopController.storyboard */; };
-		3C5FCBEB1EB6CBF5003D4FE2 /* ProfileController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C5FCBEA1EB6CBF5003D4FE2 /* ProfileController.storyboard */; };
-		3C5FCBED1EB6CC21003D4FE2 /* TopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCBEC1EB6CC21003D4FE2 /* TopController.swift */; };
-		3C5FCBEF1EB6CC3B003D4FE2 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCBEE1EB6CC3B003D4FE2 /* ProfileController.swift */; };
-		3C5FCBF11EB6CC67003D4FE2 /* TopNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCBF01EB6CC67003D4FE2 /* TopNavigationController.swift */; };
-		3C5FCBF31EB6CCE8003D4FE2 /* ProfileNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCBF21EB6CCE8003D4FE2 /* ProfileNavigationController.swift */; };
 		3C5FCBF51EB6CDD5003D4FE2 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCBF41EB6CDD5003D4FE2 /* MainController.swift */; };
-		3C5FCBF81EB6CF33003D4FE2 /* TopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C5FCBF71EB6CF33003D4FE2 /* TopCell.xib */; };
-		3C5FCBFA1EB6D0B2003D4FE2 /* TopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCBF91EB6D0B2003D4FE2 /* TopCell.swift */; };
-		3C5FCBFC1EB6D119003D4FE2 /* TopInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCBFB1EB6D119003D4FE2 /* TopInfo.swift */; };
-		3C5FCC001EB6D40C003D4FE2 /* TopDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCBFF1EB6D40C003D4FE2 /* TopDataSource.swift */; };
-		3C5FCC021EB6D46F003D4FE2 /* TopStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCC011EB6D46F003D4FE2 /* TopStore.swift */; };
-		3C5FCC041EB6D4FD003D4FE2 /* TopDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCC031EB6D4FD003D4FE2 /* TopDispatcher.swift */; };
-		3C5FCC0B1EB6DA5B003D4FE2 /* TopAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCC0A1EB6DA5B003D4FE2 /* TopAPI.swift */; };
-		3C5FCC0D1EB6DACB003D4FE2 /* UrlConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCC0C1EB6DACB003D4FE2 /* UrlConstants.swift */; };
-		3C5FCC111EB6DF1F003D4FE2 /* RecordsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCC101EB6DF1F003D4FE2 /* RecordsResponse.swift */; };
-		3C5FCC151EB703BA003D4FE2 /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCC141EB703BA003D4FE2 /* Variable.swift */; };
-		3C5FCC1B1EB71924003D4FE2 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCC1A1EB71924003D4FE2 /* UITableView.swift */; };
-		3C5FCC1D1EB71E20003D4FE2 /* SVProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCC1C1EB71E20003D4FE2 /* SVProgressHUD.swift */; };
-		3C5FCC201EB723C3003D4FE2 /* ErrorNoticeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCC1F1EB723C3003D4FE2 /* ErrorNoticeAction.swift */; };
-		3C5FCC221EB7241E003D4FE2 /* ErrorNoticeDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCC211EB7241E003D4FE2 /* ErrorNoticeDispatcher.swift */; };
-		3C5FCC241EB724BB003D4FE2 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCC231EB724BB003D4FE2 /* AppConstants.swift */; };
-		3C5FCC261EB73046003D4FE2 /* TopAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FCC251EB73046003D4FE2 /* TopAction.swift */; };
+		FBB512821EB84C7600AEFF56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB5127F1EB84C7600AEFF56 /* AppDelegate.swift */; };
+		FBB512831EB84C7600AEFF56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB512801EB84C7600AEFF56 /* Assets.xcassets */; };
+		FBB512841EB84C7600AEFF56 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBB512811EB84C7600AEFF56 /* Info.plist */; };
+		FBB512871EB84C9700AEFF56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB512851EB84C9700AEFF56 /* LaunchScreen.storyboard */; };
+		FBB5128A1EB84CDB00AEFF56 /* RecordsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB512881EB84CDB00AEFF56 /* RecordsResponse.swift */; };
+		FBB5128B1EB84CDB00AEFF56 /* TopAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB512891EB84CDB00AEFF56 /* TopAPI.swift */; };
+		FBB512901EB84D3500AEFF56 /* NSObjectProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB5128C1EB84D3500AEFF56 /* NSObjectProtocol.swift */; };
+		FBB512911EB84D3500AEFF56 /* SVProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB5128D1EB84D3500AEFF56 /* SVProgressHUD.swift */; };
+		FBB512921EB84D3500AEFF56 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB5128E1EB84D3500AEFF56 /* UITableView.swift */; };
+		FBB512931EB84D3500AEFF56 /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB5128F1EB84D3500AEFF56 /* Variable.swift */; };
+		FBB512961EB84D4100AEFF56 /* Nibable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB512941EB84D4100AEFF56 /* Nibable.swift */; };
+		FBB512971EB84D4100AEFF56 /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB512951EB84D4100AEFF56 /* Storyboardable.swift */; };
+		FBB5129A1EB84D6C00AEFF56 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB512981EB84D6C00AEFF56 /* AppConstants.swift */; };
+		FBB5129B1EB84D6C00AEFF56 /* UrlConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB512991EB84D6C00AEFF56 /* UrlConstants.swift */; };
+		FBB5129E1EB84DEC00AEFF56 /* ErrorNoticeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB5129C1EB84DEC00AEFF56 /* ErrorNoticeAction.swift */; };
+		FBB5129F1EB84DEC00AEFF56 /* TopAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB5129D1EB84DEC00AEFF56 /* TopAction.swift */; };
+		FBB512A21EB84DF600AEFF56 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB512A01EB84DF600AEFF56 /* Store.swift */; };
+		FBB512A31EB84DF600AEFF56 /* TopStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB512A11EB84DF600AEFF56 /* TopStore.swift */; };
+		FBB512A71EB84E0100AEFF56 /* DispatcherSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB512A41EB84E0100AEFF56 /* DispatcherSubject.swift */; };
+		FBB512A81EB84E0100AEFF56 /* ErrorNoticeDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB512A51EB84E0100AEFF56 /* ErrorNoticeDispatcher.swift */; };
+		FBB512A91EB84E0100AEFF56 /* TopDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB512A61EB84E0100AEFF56 /* TopDispatcher.swift */; };
+		FBB512AD1EB84EFB00AEFF56 /* TopController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB512AA1EB84EFB00AEFF56 /* TopController.storyboard */; };
+		FBB512AE1EB84EFB00AEFF56 /* TopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB512AB1EB84EFB00AEFF56 /* TopController.swift */; };
+		FBB512AF1EB84EFB00AEFF56 /* TopNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB512AC1EB84EFB00AEFF56 /* TopNavigationController.swift */; };
+		FBB512B21EB84F0B00AEFF56 /* TopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB512B01EB84F0B00AEFF56 /* TopCell.swift */; };
+		FBB512B31EB84F0B00AEFF56 /* TopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBB512B11EB84F0B00AEFF56 /* TopCell.xib */; };
+		FBB512B51EB84F1500AEFF56 /* TopDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB512B41EB84F1500AEFF56 /* TopDataSource.swift */; };
+		FBB512B71EB84F2400AEFF56 /* TopInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB512B61EB84F2400AEFF56 /* TopInfo.swift */; };
+		FBB512BB1EB84F4B00AEFF56 /* ProfileController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB512B81EB84F4B00AEFF56 /* ProfileController.storyboard */; };
+		FBB512BC1EB84F4B00AEFF56 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB512B91EB84F4B00AEFF56 /* ProfileController.swift */; };
+		FBB512BD1EB84F4B00AEFF56 /* ProfileNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB512BA1EB84F4B00AEFF56 /* ProfileNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3C5FCBBB1EB6BE74003D4FE2 /* FluxSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FluxSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C5FCBBE1EB6BE74003D4FE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3C5FCBC51EB6BE74003D4FE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3C5FCBC81EB6BE74003D4FE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3C5FCBCA1EB6BE74003D4FE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C5FCBD51EB6BEBE003D4FE2 /* DispatcherSubject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatcherSubject.swift; sourceTree = "<group>"; };
-		3C5FCBD81EB6C6C2003D4FE2 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
-		3C5FCBDC1EB6C8DE003D4FE2 /* Storyboardable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboardable.swift; sourceTree = "<group>"; };
-		3C5FCBDF1EB6C95A003D4FE2 /* NSObjectProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectProtocol.swift; sourceTree = "<group>"; };
-		3C5FCBE11EB6CA66003D4FE2 /* Nibable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nibable.swift; sourceTree = "<group>"; };
 		3C5FCBE41EB6CB87003D4FE2 /* MainController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainController.storyboard; sourceTree = "<group>"; };
-		3C5FCBE71EB6CBC5003D4FE2 /* TopController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TopController.storyboard; sourceTree = "<group>"; };
-		3C5FCBEA1EB6CBF5003D4FE2 /* ProfileController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ProfileController.storyboard; sourceTree = "<group>"; };
-		3C5FCBEC1EB6CC21003D4FE2 /* TopController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopController.swift; sourceTree = "<group>"; };
-		3C5FCBEE1EB6CC3B003D4FE2 /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
-		3C5FCBF01EB6CC67003D4FE2 /* TopNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopNavigationController.swift; sourceTree = "<group>"; };
-		3C5FCBF21EB6CCE8003D4FE2 /* ProfileNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileNavigationController.swift; sourceTree = "<group>"; };
 		3C5FCBF41EB6CDD5003D4FE2 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
-		3C5FCBF71EB6CF33003D4FE2 /* TopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopCell.xib; sourceTree = "<group>"; };
-		3C5FCBF91EB6D0B2003D4FE2 /* TopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopCell.swift; sourceTree = "<group>"; };
-		3C5FCBFB1EB6D119003D4FE2 /* TopInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopInfo.swift; sourceTree = "<group>"; };
-		3C5FCBFF1EB6D40C003D4FE2 /* TopDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopDataSource.swift; sourceTree = "<group>"; };
-		3C5FCC011EB6D46F003D4FE2 /* TopStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopStore.swift; sourceTree = "<group>"; };
-		3C5FCC031EB6D4FD003D4FE2 /* TopDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopDispatcher.swift; sourceTree = "<group>"; };
-		3C5FCC0A1EB6DA5B003D4FE2 /* TopAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopAPI.swift; sourceTree = "<group>"; };
-		3C5FCC0C1EB6DACB003D4FE2 /* UrlConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlConstants.swift; sourceTree = "<group>"; };
-		3C5FCC101EB6DF1F003D4FE2 /* RecordsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsResponse.swift; sourceTree = "<group>"; };
-		3C5FCC141EB703BA003D4FE2 /* Variable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Variable.swift; sourceTree = "<group>"; };
-		3C5FCC1A1EB71924003D4FE2 /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
-		3C5FCC1C1EB71E20003D4FE2 /* SVProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVProgressHUD.swift; sourceTree = "<group>"; };
-		3C5FCC1F1EB723C3003D4FE2 /* ErrorNoticeAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorNoticeAction.swift; sourceTree = "<group>"; };
-		3C5FCC211EB7241E003D4FE2 /* ErrorNoticeDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorNoticeDispatcher.swift; sourceTree = "<group>"; };
-		3C5FCC231EB724BB003D4FE2 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
-		3C5FCC251EB73046003D4FE2 /* TopAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopAction.swift; sourceTree = "<group>"; };
 		987DB52D7FDD0C7E63B1D14E /* Pods_FluxSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FluxSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B5E2D12FAA00AAF767DF15 /* Pods-FluxSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FluxSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FluxSample/Pods-FluxSample.debug.xcconfig"; sourceTree = "<group>"; };
 		FB418E7B70973FEE341ADD99 /* Pods-FluxSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FluxSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-FluxSample/Pods-FluxSample.release.xcconfig"; sourceTree = "<group>"; };
+		FBB5127F1EB84C7600AEFF56 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Resource/AppDelegate.swift; sourceTree = "<group>"; };
+		FBB512801EB84C7600AEFF56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resource/Assets.xcassets; sourceTree = "<group>"; };
+		FBB512811EB84C7600AEFF56 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resource/Info.plist; sourceTree = "<group>"; };
+		FBB512861EB84C9700AEFF56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Resource/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBB512881EB84CDB00AEFF56 /* RecordsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecordsResponse.swift; path = Source/Core/API/RecordsResponse.swift; sourceTree = "<group>"; };
+		FBB512891EB84CDB00AEFF56 /* TopAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TopAPI.swift; path = Source/Core/API/TopAPI.swift; sourceTree = "<group>"; };
+		FBB5128C1EB84D3500AEFF56 /* NSObjectProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSObjectProtocol.swift; path = Source/Common/Extension/NSObjectProtocol.swift; sourceTree = "<group>"; };
+		FBB5128D1EB84D3500AEFF56 /* SVProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SVProgressHUD.swift; path = Source/Common/Extension/SVProgressHUD.swift; sourceTree = "<group>"; };
+		FBB5128E1EB84D3500AEFF56 /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UITableView.swift; path = Source/Common/Extension/UITableView.swift; sourceTree = "<group>"; };
+		FBB5128F1EB84D3500AEFF56 /* Variable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Variable.swift; path = Source/Common/Extension/Variable.swift; sourceTree = "<group>"; };
+		FBB512941EB84D4100AEFF56 /* Nibable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Nibable.swift; path = Source/Common/UI/Nibable.swift; sourceTree = "<group>"; };
+		FBB512951EB84D4100AEFF56 /* Storyboardable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Storyboardable.swift; path = Source/Common/UI/Storyboardable.swift; sourceTree = "<group>"; };
+		FBB512981EB84D6C00AEFF56 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppConstants.swift; path = Source/Common/AppConstants.swift; sourceTree = "<group>"; };
+		FBB512991EB84D6C00AEFF56 /* UrlConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UrlConstants.swift; path = Source/Common/UrlConstants.swift; sourceTree = "<group>"; };
+		FBB5129C1EB84DEC00AEFF56 /* ErrorNoticeAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ErrorNoticeAction.swift; path = Source/Flux/Action/ErrorNoticeAction.swift; sourceTree = "<group>"; };
+		FBB5129D1EB84DEC00AEFF56 /* TopAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TopAction.swift; path = Source/Flux/Action/TopAction.swift; sourceTree = "<group>"; };
+		FBB512A01EB84DF600AEFF56 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Store.swift; path = Source/Flux/Store/Store.swift; sourceTree = "<group>"; };
+		FBB512A11EB84DF600AEFF56 /* TopStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TopStore.swift; path = Source/Flux/Store/TopStore.swift; sourceTree = "<group>"; };
+		FBB512A41EB84E0100AEFF56 /* DispatcherSubject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DispatcherSubject.swift; path = Source/Flux/Dispatcher/DispatcherSubject.swift; sourceTree = "<group>"; };
+		FBB512A51EB84E0100AEFF56 /* ErrorNoticeDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ErrorNoticeDispatcher.swift; path = Source/Flux/Dispatcher/ErrorNoticeDispatcher.swift; sourceTree = "<group>"; };
+		FBB512A61EB84E0100AEFF56 /* TopDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TopDispatcher.swift; path = Source/Flux/Dispatcher/TopDispatcher.swift; sourceTree = "<group>"; };
+		FBB512AA1EB84EFB00AEFF56 /* TopController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = TopController.storyboard; path = Source/TopPage/TopController.storyboard; sourceTree = "<group>"; };
+		FBB512AB1EB84EFB00AEFF56 /* TopController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TopController.swift; path = Source/TopPage/TopController.swift; sourceTree = "<group>"; };
+		FBB512AC1EB84EFB00AEFF56 /* TopNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TopNavigationController.swift; path = Source/TopPage/TopNavigationController.swift; sourceTree = "<group>"; };
+		FBB512B01EB84F0B00AEFF56 /* TopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TopCell.swift; path = Source/TopPage/Cell/TopCell.swift; sourceTree = "<group>"; };
+		FBB512B11EB84F0B00AEFF56 /* TopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TopCell.xib; path = Source/TopPage/Cell/TopCell.xib; sourceTree = "<group>"; };
+		FBB512B41EB84F1500AEFF56 /* TopDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TopDataSource.swift; path = Source/TopPage/DataSource/TopDataSource.swift; sourceTree = "<group>"; };
+		FBB512B61EB84F2400AEFF56 /* TopInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TopInfo.swift; path = Source/TopPage/Model/TopInfo.swift; sourceTree = "<group>"; };
+		FBB512B81EB84F4B00AEFF56 /* ProfileController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ProfileController.storyboard; path = Source/ProfilePage/ProfileController.storyboard; sourceTree = "<group>"; };
+		FBB512B91EB84F4B00AEFF56 /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileController.swift; path = Source/ProfilePage/ProfileController.swift; sourceTree = "<group>"; };
+		FBB512BA1EB84F4B00AEFF56 /* ProfileNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileNavigationController.swift; path = Source/ProfilePage/ProfileNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,10 +142,10 @@
 		3C5FCBD01EB6BE89003D4FE2 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				3C5FCBBE1EB6BE74003D4FE2 /* AppDelegate.swift */,
-				3C5FCBC51EB6BE74003D4FE2 /* Assets.xcassets */,
-				3C5FCBC71EB6BE74003D4FE2 /* LaunchScreen.storyboard */,
-				3C5FCBCA1EB6BE74003D4FE2 /* Info.plist */,
+				FBB512811EB84C7600AEFF56 /* Info.plist */,
+				FBB5127F1EB84C7600AEFF56 /* AppDelegate.swift */,
+				FBB512801EB84C7600AEFF56 /* Assets.xcassets */,
+				FBB512851EB84C9700AEFF56 /* LaunchScreen.storyboard */,
 			);
 			name = Resource;
 			sourceTree = "<group>";
@@ -165,10 +166,10 @@
 		3C5FCBD21EB6BEA2003D4FE2 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				FBB512981EB84D6C00AEFF56 /* AppConstants.swift */,
+				FBB512991EB84D6C00AEFF56 /* UrlConstants.swift */,
 				3C5FCBDE1EB6C94B003D4FE2 /* Extension */,
 				3C5FCBDB1EB6C8D0003D4FE2 /* UI */,
-				3C5FCC0C1EB6DACB003D4FE2 /* UrlConstants.swift */,
-				3C5FCC231EB724BB003D4FE2 /* AppConstants.swift */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -186,9 +187,9 @@
 		3C5FCBD41EB6BEAE003D4FE2 /* Dispatcher */ = {
 			isa = PBXGroup;
 			children = (
-				3C5FCBD51EB6BEBE003D4FE2 /* DispatcherSubject.swift */,
-				3C5FCC031EB6D4FD003D4FE2 /* TopDispatcher.swift */,
-				3C5FCC211EB7241E003D4FE2 /* ErrorNoticeDispatcher.swift */,
+				FBB512A41EB84E0100AEFF56 /* DispatcherSubject.swift */,
+				FBB512A51EB84E0100AEFF56 /* ErrorNoticeDispatcher.swift */,
+				FBB512A61EB84E0100AEFF56 /* TopDispatcher.swift */,
 			);
 			name = Dispatcher;
 			sourceTree = "<group>";
@@ -196,8 +197,8 @@
 		3C5FCBD71EB6C690003D4FE2 /* Store */ = {
 			isa = PBXGroup;
 			children = (
-				3C5FCBD81EB6C6C2003D4FE2 /* Store.swift */,
-				3C5FCC011EB6D46F003D4FE2 /* TopStore.swift */,
+				FBB512A01EB84DF600AEFF56 /* Store.swift */,
+				FBB512A11EB84DF600AEFF56 /* TopStore.swift */,
 			);
 			name = Store;
 			sourceTree = "<group>";
@@ -205,8 +206,8 @@
 		3C5FCBDA1EB6C8A9003D4FE2 /* Action */ = {
 			isa = PBXGroup;
 			children = (
-				3C5FCC1F1EB723C3003D4FE2 /* ErrorNoticeAction.swift */,
-				3C5FCC251EB73046003D4FE2 /* TopAction.swift */,
+				FBB5129C1EB84DEC00AEFF56 /* ErrorNoticeAction.swift */,
+				FBB5129D1EB84DEC00AEFF56 /* TopAction.swift */,
 			);
 			name = Action;
 			sourceTree = "<group>";
@@ -214,8 +215,8 @@
 		3C5FCBDB1EB6C8D0003D4FE2 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				3C5FCBDC1EB6C8DE003D4FE2 /* Storyboardable.swift */,
-				3C5FCBE11EB6CA66003D4FE2 /* Nibable.swift */,
+				FBB512941EB84D4100AEFF56 /* Nibable.swift */,
+				FBB512951EB84D4100AEFF56 /* Storyboardable.swift */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -223,10 +224,10 @@
 		3C5FCBDE1EB6C94B003D4FE2 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				3C5FCBDF1EB6C95A003D4FE2 /* NSObjectProtocol.swift */,
-				3C5FCC141EB703BA003D4FE2 /* Variable.swift */,
-				3C5FCC1A1EB71924003D4FE2 /* UITableView.swift */,
-				3C5FCC1C1EB71E20003D4FE2 /* SVProgressHUD.swift */,
+				FBB5128C1EB84D3500AEFF56 /* NSObjectProtocol.swift */,
+				FBB5128D1EB84D3500AEFF56 /* SVProgressHUD.swift */,
+				FBB5128E1EB84D3500AEFF56 /* UITableView.swift */,
+				FBB5128F1EB84D3500AEFF56 /* Variable.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -243,12 +244,12 @@
 		3C5FCBE61EB6CBB1003D4FE2 /* TopPage */ = {
 			isa = PBXGroup;
 			children = (
+				FBB512AA1EB84EFB00AEFF56 /* TopController.storyboard */,
+				FBB512AB1EB84EFB00AEFF56 /* TopController.swift */,
+				FBB512AC1EB84EFB00AEFF56 /* TopNavigationController.swift */,
 				3C5FCBFE1EB6D3F7003D4FE2 /* DataSource */,
 				3C5FCBFD1EB6D3EB003D4FE2 /* Model */,
 				3C5FCBF61EB6CF25003D4FE2 /* Cell */,
-				3C5FCBF01EB6CC67003D4FE2 /* TopNavigationController.swift */,
-				3C5FCBE71EB6CBC5003D4FE2 /* TopController.storyboard */,
-				3C5FCBEC1EB6CC21003D4FE2 /* TopController.swift */,
 			);
 			name = TopPage;
 			sourceTree = "<group>";
@@ -256,12 +257,12 @@
 		3C5FCBE91EB6CBE6003D4FE2 /* ProfilePage */ = {
 			isa = PBXGroup;
 			children = (
+				FBB512B81EB84F4B00AEFF56 /* ProfileController.storyboard */,
+				FBB512B91EB84F4B00AEFF56 /* ProfileController.swift */,
+				FBB512BA1EB84F4B00AEFF56 /* ProfileNavigationController.swift */,
+				3C66FCD71EB8261B00B6193F /* Cell */,
 				3C66FCD51EB8260E00B6193F /* DataSource */,
 				3C66FCD61EB8261600B6193F /* Model */,
-				3C66FCD71EB8261B00B6193F /* Cell */,
-				3C5FCBF21EB6CCE8003D4FE2 /* ProfileNavigationController.swift */,
-				3C5FCBEA1EB6CBF5003D4FE2 /* ProfileController.storyboard */,
-				3C5FCBEE1EB6CC3B003D4FE2 /* ProfileController.swift */,
 			);
 			name = ProfilePage;
 			sourceTree = "<group>";
@@ -269,8 +270,8 @@
 		3C5FCBF61EB6CF25003D4FE2 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				3C5FCBF71EB6CF33003D4FE2 /* TopCell.xib */,
-				3C5FCBF91EB6D0B2003D4FE2 /* TopCell.swift */,
+				FBB512B01EB84F0B00AEFF56 /* TopCell.swift */,
+				FBB512B11EB84F0B00AEFF56 /* TopCell.xib */,
 			);
 			name = Cell;
 			sourceTree = "<group>";
@@ -278,7 +279,7 @@
 		3C5FCBFD1EB6D3EB003D4FE2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				3C5FCBFB1EB6D119003D4FE2 /* TopInfo.swift */,
+				FBB512B61EB84F2400AEFF56 /* TopInfo.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -286,7 +287,7 @@
 		3C5FCBFE1EB6D3F7003D4FE2 /* DataSource */ = {
 			isa = PBXGroup;
 			children = (
-				3C5FCBFF1EB6D40C003D4FE2 /* TopDataSource.swift */,
+				FBB512B41EB84F1500AEFF56 /* TopDataSource.swift */,
 			);
 			name = DataSource;
 			sourceTree = "<group>";
@@ -302,8 +303,8 @@
 		3C5FCC091EB6DA4A003D4FE2 /* API */ = {
 			isa = PBXGroup;
 			children = (
-				3C5FCC101EB6DF1F003D4FE2 /* RecordsResponse.swift */,
-				3C5FCC0A1EB6DA5B003D4FE2 /* TopAPI.swift */,
+				FBB512881EB84CDB00AEFF56 /* RecordsResponse.swift */,
+				FBB512891EB84CDB00AEFF56 /* TopAPI.swift */,
 			);
 			name = API;
 			sourceTree = "<group>";
@@ -392,12 +393,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C5FCBC91EB6BE74003D4FE2 /* LaunchScreen.storyboard in Resources */,
+				FBB512841EB84C7600AEFF56 /* Info.plist in Resources */,
 				3C5FCBE51EB6CB87003D4FE2 /* MainController.storyboard in Resources */,
-				3C5FCBE81EB6CBC5003D4FE2 /* TopController.storyboard in Resources */,
-				3C5FCBF81EB6CF33003D4FE2 /* TopCell.xib in Resources */,
-				3C5FCBEB1EB6CBF5003D4FE2 /* ProfileController.storyboard in Resources */,
-				3C5FCBC61EB6BE74003D4FE2 /* Assets.xcassets in Resources */,
+				FBB512871EB84C9700AEFF56 /* LaunchScreen.storyboard in Resources */,
+				FBB512BB1EB84F4B00AEFF56 /* ProfileController.storyboard in Resources */,
+				FBB512831EB84C7600AEFF56 /* Assets.xcassets in Resources */,
+				FBB512AD1EB84EFB00AEFF56 /* TopController.storyboard in Resources */,
+				FBB512B31EB84F0B00AEFF56 /* TopCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,42 +458,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C5FCC0B1EB6DA5B003D4FE2 /* TopAPI.swift in Sources */,
-				3C5FCBF11EB6CC67003D4FE2 /* TopNavigationController.swift in Sources */,
-				3C5FCBDD1EB6C8DE003D4FE2 /* Storyboardable.swift in Sources */,
-				3C5FCC1D1EB71E20003D4FE2 /* SVProgressHUD.swift in Sources */,
-				3C5FCC1B1EB71924003D4FE2 /* UITableView.swift in Sources */,
-				3C5FCC111EB6DF1F003D4FE2 /* RecordsResponse.swift in Sources */,
-				3C5FCBE21EB6CA66003D4FE2 /* Nibable.swift in Sources */,
-				3C5FCBD91EB6C6C2003D4FE2 /* Store.swift in Sources */,
-				3C5FCBBF1EB6BE74003D4FE2 /* AppDelegate.swift in Sources */,
-				3C5FCBD61EB6BEBE003D4FE2 /* DispatcherSubject.swift in Sources */,
-				3C5FCC021EB6D46F003D4FE2 /* TopStore.swift in Sources */,
-				3C5FCBED1EB6CC21003D4FE2 /* TopController.swift in Sources */,
-				3C5FCC0D1EB6DACB003D4FE2 /* UrlConstants.swift in Sources */,
-				3C5FCC041EB6D4FD003D4FE2 /* TopDispatcher.swift in Sources */,
-				3C5FCC221EB7241E003D4FE2 /* ErrorNoticeDispatcher.swift in Sources */,
+				FBB512BC1EB84F4B00AEFF56 /* ProfileController.swift in Sources */,
+				FBB5128A1EB84CDB00AEFF56 /* RecordsResponse.swift in Sources */,
+				FBB512901EB84D3500AEFF56 /* NSObjectProtocol.swift in Sources */,
+				FBB512B21EB84F0B00AEFF56 /* TopCell.swift in Sources */,
+				FBB512AF1EB84EFB00AEFF56 /* TopNavigationController.swift in Sources */,
+				FBB512A21EB84DF600AEFF56 /* Store.swift in Sources */,
+				FBB512961EB84D4100AEFF56 /* Nibable.swift in Sources */,
+				FBB512B71EB84F2400AEFF56 /* TopInfo.swift in Sources */,
+				FBB512A81EB84E0100AEFF56 /* ErrorNoticeDispatcher.swift in Sources */,
+				FBB512A31EB84DF600AEFF56 /* TopStore.swift in Sources */,
+				FBB512A71EB84E0100AEFF56 /* DispatcherSubject.swift in Sources */,
+				FBB5129B1EB84D6C00AEFF56 /* UrlConstants.swift in Sources */,
+				FBB512A91EB84E0100AEFF56 /* TopDispatcher.swift in Sources */,
 				3C5FCBF51EB6CDD5003D4FE2 /* MainController.swift in Sources */,
-				3C5FCC151EB703BA003D4FE2 /* Variable.swift in Sources */,
-				3C5FCC241EB724BB003D4FE2 /* AppConstants.swift in Sources */,
-				3C5FCC001EB6D40C003D4FE2 /* TopDataSource.swift in Sources */,
-				3C5FCBFC1EB6D119003D4FE2 /* TopInfo.swift in Sources */,
-				3C5FCC201EB723C3003D4FE2 /* ErrorNoticeAction.swift in Sources */,
-				3C5FCC261EB73046003D4FE2 /* TopAction.swift in Sources */,
-				3C5FCBE01EB6C95A003D4FE2 /* NSObjectProtocol.swift in Sources */,
-				3C5FCBEF1EB6CC3B003D4FE2 /* ProfileController.swift in Sources */,
-				3C5FCBF31EB6CCE8003D4FE2 /* ProfileNavigationController.swift in Sources */,
-				3C5FCBFA1EB6D0B2003D4FE2 /* TopCell.swift in Sources */,
+				FBB5128B1EB84CDB00AEFF56 /* TopAPI.swift in Sources */,
+				FBB512971EB84D4100AEFF56 /* Storyboardable.swift in Sources */,
+				FBB512931EB84D3500AEFF56 /* Variable.swift in Sources */,
+				FBB5129A1EB84D6C00AEFF56 /* AppConstants.swift in Sources */,
+				FBB512821EB84C7600AEFF56 /* AppDelegate.swift in Sources */,
+				FBB512921EB84D3500AEFF56 /* UITableView.swift in Sources */,
+				FBB5129E1EB84DEC00AEFF56 /* ErrorNoticeAction.swift in Sources */,
+				FBB512BD1EB84F4B00AEFF56 /* ProfileNavigationController.swift in Sources */,
+				FBB512AE1EB84EFB00AEFF56 /* TopController.swift in Sources */,
+				FBB5129F1EB84DEC00AEFF56 /* TopAction.swift in Sources */,
+				FBB512B51EB84F1500AEFF56 /* TopDataSource.swift in Sources */,
+				FBB512911EB84D3500AEFF56 /* SVProgressHUD.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3C5FCBC71EB6BE74003D4FE2 /* LaunchScreen.storyboard */ = {
+		FBB512851EB84C9700AEFF56 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3C5FCBC81EB6BE74003D4FE2 /* Base */,
+				FBB512861EB84C9700AEFF56 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
