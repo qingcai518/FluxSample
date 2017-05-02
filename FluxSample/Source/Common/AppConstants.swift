@@ -9,6 +9,8 @@
 import Foundation
 import UIKit
 
+let count = 20
+
 enum ErrorNoticeType {
     case apiError(Error)
     
@@ -33,4 +35,8 @@ var refreshImages : [UIImage] {
         UIImage(named: "fishing3")!,
         UIImage(named: "fishing4")!
     ]
+}
+
+struct UDKey {
+    static let offset = "offset"
 }
