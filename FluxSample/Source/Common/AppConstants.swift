@@ -7,6 +7,9 @@
 //
 
 import Foundation
+import UIKit
+
+let count = 20
 
 enum ErrorNoticeType {
     case apiError(Error)
@@ -17,4 +20,23 @@ enum ErrorNoticeType {
             return "通信に失敗しました\n\(error.localizedDescription)"
         }
     }
+}
+
+var idleImages :[UIImage] {
+    return [UIImage(named: "fishing1")!]
+}
+
+var pullImages: [UIImage] {
+    return [UIImage(named: "fishing2")!]
+}
+
+var refreshImages : [UIImage] {
+    return [
+        UIImage(named: "fishing3")!,
+        UIImage(named: "fishing4")!
+    ]
+}
+
+struct UDKey {
+    static let offset = "offset"
 }
