@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="NKo-8I-XiA">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main Controller-->
+        <scene sceneID="IKA-7m-ef4">
+            <objects>
+                <tabBarController id="NKo-8I-XiA" customClass="MainController" customModule="FluxSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="meU-vu-e6j">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="lRi-sL-vuT" kind="relationship" relationship="viewControllers" id="LVu-cb-F5n"/>
+                        <segue destination="9QE-B0-wBS" kind="relationship" relationship="viewControllers" id="Jzo-2h-NlW"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lKN-Je-t5u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-177" y="78"/>
+        </scene>
+        <!--Top-->
+        <scene sceneID="fjo-Fm-ai4">
+            <objects>
+                <navigationController id="lRi-sL-vuT" customClass="TopNavigationController" customModule="FluxSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Top" image="tab_top" id="WId-TD-uq6"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="IAg-Qc-419">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mcj-Sr-Mja" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-334" y="814"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="csI-KZ-utc">
+            <objects>
+                <navigationController id="9QE-B0-wBS" customClass="ProfileNavigationController" customModule="FluxSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" tag="1" title="Profile" image="tab_profile" id="CY6-0i-1ML"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="JRs-Tk-8ac">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3kf-gQ-sga" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="415" y="814"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tab_profile" width="25" height="25"/>
+        <image name="tab_top" width="25" height="25"/>
+    </resources>
+</document>
