@@ -10,4 +10,5 @@ target 'FluxSample' do
     pod 'SVProgressHUD'
     pod 'Alamofire', '~> 4.4'
     pod 'MJRefresh'
+    pod 'Himotoki', '~> 3.0'
 end

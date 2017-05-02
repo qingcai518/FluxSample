@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.4.0)
+  - Himotoki (3.0.1)
   - Kingfisher (3.6.2)
   - MJRefresh (3.1.12)
   - RxCocoa (3.4.1):
@@ -9,6 +10,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 4.4)
+  - Himotoki (~> 3.0)
   - Kingfisher (~> 3.0)
   - MJRefresh
   - RxCocoa (~> 3.0)
@@ -17,12 +19,13 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  Himotoki: 85fda41d4d0e14f7228317a3b474175cdfb8f515
   Kingfisher: 2c94e72c6830622c71d06adf4ea024c37d316830
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   RxCocoa: a8a5f1d061d0043e28f56976829f31ce63e8eb09
   RxSwift: 656f8fbeca5bc372121a72d9ebdd3cd3bc0ffade
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
 
-PODFILE CHECKSUM: 77ee63586e03e70b965928f9a52bc21f0f5bbe17
+PODFILE CHECKSUM: 26706490c11504878d476da226afed81269839a0
 
 COCOAPODS: 1.2.1

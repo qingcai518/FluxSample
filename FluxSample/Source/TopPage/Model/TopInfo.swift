@@ -7,43 +7,23 @@
 //
 
 import Foundation
+import Himotoki
 
-struct TopInfo {
-    var itemId : Int
+struct TopInfo:Decodable {
+    var itemId : String
     var itemName: String
     var itemImageUrl: String
     var price : String
     var expired: String
     
-    init?(infoDic: NSDictionary) {
-        guard let itemIdStr = infoDic["id"] as? String else {
-            return nil
-        }
-        
-        guard let itemId = Int(itemIdStr) else {
-            return nil
-        }
-        
-        guard let itemName = infoDic["name"] as? String else {
-            return nil
-        }
-        
-        guard let itemImageUrl = infoDic["imageUrl"] as? String else {
-            return nil
-        }
-        
-        guard let price = infoDic["price"] as? String else {
-            return nil
-        }
-        
-        guard let expired = infoDic["expired"] as? String else {
-            return nil
-        }
-        
-        self.itemId = itemId
-        self.itemName = itemName
-        self.itemImageUrl = itemImageUrl
-        self.price = price
-        self.expired = expired
+    // MARK: Decodable
+    static func decode(_ e: Extractor) throws -> TopInfo {
+        return try TopInfo(
+            itemId: e <| "id",
+            itemName: e <| "name",
+            itemImageUrl: e <| "imageUrl",
+            price: e <| "price",
+            expired: e <| "expired"
+        )
     }
 }
