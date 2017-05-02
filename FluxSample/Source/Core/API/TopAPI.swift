@@ -8,11 +8,12 @@
 
 import RxSwift
 import Alamofire
+import Himotoki
 
 struct TopAPI {
     static func getTopInfos(_ topInfos: [TopInfo]?) -> Observable<RecordsResponse<TopInfo>> {
         print("--------------------")
-        print("get top infos = \(topInfos)")
+        print("get top infos = \(String(describing: topInfos))")
         var offset = 0
         var records = [TopInfo]()
         
@@ -40,16 +41,12 @@ struct TopAPI {
                     return
                 }
                 
-                for info in result {
-                    guard let infoDic = info as? NSDictionary else {
-                        continue
-                    }
-                    
-                    guard let topInfo = TopInfo(infoDic: infoDic) else {
-                        continue
-                    }
-                    
-                    records.append(topInfo)
+                do {
+                    records = try decodeArray(result)
+                } catch {
+                    let decodeError = NSError(domain: "fail to decodeArray result", code: 1, userInfo: nil)
+                    observer.onError(decodeError)
+                    return
                 }
                 
                 UserDefaults.standard.set(offset + records.count, forKey: UDKey.offset)
@@ -65,4 +62,5 @@ struct TopAPI {
         
         return observable.take(1)
     }
+
 }
