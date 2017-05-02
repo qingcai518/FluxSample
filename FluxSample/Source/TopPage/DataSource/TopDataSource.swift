@@ -45,6 +45,6 @@ extension TopDataSource: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        print("to next page.")
+        Logger.debug(message:"to next page.")
     }
 }

@@ -16,6 +16,6 @@ class TopDispatcher {
     let topInfos = DispatcherSubject<(Bool, [TopInfo])>()
 
     private init() {
-        print("[TopDispatcher]")
+        Logger.info(message:"[TopDispatcher]")
     }
 }

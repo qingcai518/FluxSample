@@ -17,7 +17,7 @@ class TopStore : Store {
     fileprivate let error = PublishSubject<Error>()
     
     private init(dispatcher: TopDispatcher = .shared) {
-        print("[TopStore]")
+        Logger.info(message:"[TopStore]")
         super.init()
         
         

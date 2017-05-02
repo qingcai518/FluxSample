@@ -42,6 +42,7 @@
 		FBB512C01EB852E500AEFF56 /* MainController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB512BE1EB852E500AEFF56 /* MainController.storyboard */; };
 		FBB512C11EB852E500AEFF56 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB512BF1EB852E500AEFF56 /* MainController.swift */; };
 		FBB512C31EB885AE00AEFF56 /* Date.ISO8601.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB512C21EB885AE00AEFF56 /* Date.ISO8601.swift */; };
+		FBB512C91EB88CC200AEFF56 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB512C81EB88CC200AEFF56 /* Logger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		FBB512BE1EB852E500AEFF56 /* MainController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainController.storyboard; path = Source/MainPage/MainController.storyboard; sourceTree = "<group>"; };
 		FBB512BF1EB852E500AEFF56 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainController.swift; path = Source/MainPage/MainController.swift; sourceTree = "<group>"; };
 		FBB512C21EB885AE00AEFF56 /* Date.ISO8601.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Date.ISO8601.swift; path = Source/Common/Extension/Date.ISO8601.swift; sourceTree = "<group>"; };
+		FBB512C81EB88CC200AEFF56 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Source/Common/Utility/Logger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 		3C5FCBD21EB6BEA2003D4FE2 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				FBB512C71EB88CAD00AEFF56 /* Utility */,
 				FBB512981EB84D6C00AEFF56 /* AppConstants.swift */,
 				FBB512991EB84D6C00AEFF56 /* UrlConstants.swift */,
 				3C5FCBDE1EB6C94B003D4FE2 /* Extension */,
@@ -335,6 +338,14 @@
 			name = Cell;
 			sourceTree = "<group>";
 		};
+		FBB512C71EB88CAD00AEFF56 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				FBB512C81EB88CC200AEFF56 /* Logger.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -467,6 +478,7 @@
 				FBB512901EB84D3500AEFF56 /* NSObjectProtocol.swift in Sources */,
 				FBB512B21EB84F0B00AEFF56 /* TopCell.swift in Sources */,
 				FBB512AF1EB84EFB00AEFF56 /* TopNavigationController.swift in Sources */,
+				FBB512C91EB88CC200AEFF56 /* Logger.swift in Sources */,
 				FBB512A21EB84DF600AEFF56 /* Store.swift in Sources */,
 				FBB512961EB84D4100AEFF56 /* Nibable.swift in Sources */,
 				FBB512B71EB84F2400AEFF56 /* TopInfo.swift in Sources */,

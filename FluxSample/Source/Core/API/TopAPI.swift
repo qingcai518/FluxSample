@@ -21,7 +21,7 @@ struct TopAPI {
         let params = ["count": count, "page": page]
         let url = URL(string: topPath)!
         
-        print("params = \(params)")
+        Logger.debug(message:"params = \(params)")
         
         let observable = Observable<RecordsResponse<TopInfo>>.create { observer -> Disposable in
             Alamofire.request(url, method: .get, parameters: params).responseJSON(completionHandler: { response in
@@ -31,7 +31,9 @@ struct TopAPI {
                 }
                 
                 guard let result = response.result.value as? NSArray else {
-                    let castError = NSError(domain: "fail to cast JSON", code: 1, userInfo: nil)
+                    let message = "fail to cast JSON"
+                    Logger.error(message: message)
+                    let castError = NSError(domain: message, code: 1, userInfo: nil)
                     observer.onError(castError)
                     return
                 }
@@ -41,10 +43,12 @@ struct TopAPI {
                     records = try decodeArray(result)
                     
                     for (_, element) in records.enumerated() {
-                        print("\(element.expiredDateString)")
+                        Logger.debug(message:"\(element.expiredDateString)")
                     }
                 } catch {
-                    let decodeError = NSError(domain: "fail to decodeArray result", code: 1, userInfo: nil)
+                    let message = "fail to decodeArray result"
+                    Logger.error(message: message)
+                    let decodeError = NSError(domain: message, code: 1, userInfo: nil)
                     observer.onError(decodeError)
                     return
                 }
