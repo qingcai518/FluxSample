@@ -11,21 +11,14 @@ import Alamofire
 import Himotoki
 
 struct TopAPI {
-    static func getTopInfos(_ topInfos: [TopInfo]?) -> Observable<RecordsResponse<TopInfo>> {
-        print("--------------------")
-        print("get top infos = \(String(describing: topInfos))")
+    static func getTopInfos(_ hasMore: Bool) -> Observable<RecordsResponse<TopInfo>> {
         var offset = 0
-        var records = [TopInfo]()
-        
-        if let topInfos = topInfos {
+        if (hasMore) {
             offset = UserDefaults.standard.integer(forKey: UDKey.offset)
-            records = topInfos
         }
         
         let params = ["count": count, "offset": offset]
         let url = URL(string: topPath)!
-        
-        print("params = \(params)")
         
         let observable = Observable<RecordsResponse<TopInfo>>.create { observer -> Disposable in
             Alamofire.request(url, method: .get, parameters: params).responseJSON(completionHandler: { response in
@@ -41,6 +34,7 @@ struct TopAPI {
                     return
                 }
                 
+                var records = [TopInfo]()
                 do {
                     records = try decodeArray(result)
                 } catch {

@@ -13,7 +13,9 @@ class TopDispatcher {
     
     let loading = DispatcherSubject<Bool>()
     let error = DispatcherSubject<Error>()
-    let topInfos = DispatcherSubject<[TopInfo]>()
-    
-    private init() {}
+    let topInfos = DispatcherSubject<(Bool, [TopInfo])>()
+
+    private init() {
+        print("[TopDispatcher]")
+    }
 }

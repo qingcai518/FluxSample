@@ -20,8 +20,16 @@ class TopStore : Store {
         print("[TopStore]")
         super.init()
         
-        // dispatcherの結果をsubscribeする.
-        bind(dispatcher.topInfos, topInfos)
+        
+        dispatcher.topInfos.asObservable().subscribe(onNext: { [weak self] loadMore, infos in
+            guard let me = self else { return }
+            if (loadMore) {
+                me.topInfos.value = me.topInfos.value + infos
+            } else {
+                me.topInfos.value = infos
+            }
+        }).addDisposableTo(disposeBag)
+        
         bind(dispatcher.loading, loading)
         bind(dispatcher.error, error)
     }

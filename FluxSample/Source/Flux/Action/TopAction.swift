@@ -20,13 +20,13 @@ class TopAction {
         TopDispatcher.shared.loading.dispatch(value)
     }
     
-    func getTopInfos(_ topInfos: [TopInfo]? = nil) {
+    func getTopInfos(_ loadMore: Bool = false) {
         loading(true)
-        TopAPI.getTopInfos(topInfos).do(onError: { [weak self] error in
+        TopAPI.getTopInfos(loadMore).do(onError: { [weak self] error in
             TopDispatcher.shared.error.dispatch(error)
             self?.loading(false)
         }).subscribe(onNext: { [weak self] response in
-            TopDispatcher.shared.topInfos.dispatch(response.records)
+            TopDispatcher.shared.topInfos.dispatch((loadMore, response.records))
             self?.loading(false)
         }).addDisposableTo(disposeBag)
     }
