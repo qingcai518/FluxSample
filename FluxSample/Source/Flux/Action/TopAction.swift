@@ -13,7 +13,7 @@ class TopAction {
     private let disposeBag = DisposeBag()
     
     private init() {
-        print("[TopAction]")
+        Logger.info(message: "[TopAction]")
     }
     
     func loading(_ value: Bool) {
